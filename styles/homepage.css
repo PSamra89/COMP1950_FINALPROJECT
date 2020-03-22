@@ -1,0 +1,47 @@
+@import url(https://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+    font-family: 'entypo';
+}
+
+nav {
+    height: 80px;
+    background: #5999c4;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    margin: 0 2em;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+#nav-wrap {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+}
+
+#home {
+    flex: auto;
+}
+
+main {
+    margin-top: 95px;
+}
