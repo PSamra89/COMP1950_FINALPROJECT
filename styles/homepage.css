@@ -1,81 +1,90 @@
 @import url(https://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
-  font-family: "entypo";
+    font-family: "entypo";
 }
+
+
 /* navigation bar styles  */
+
 nav {
-  height: 80px;
-  background: #5999c4;
-  width: 100%;
-  position: fixed;
-  opacity: 1;
-  z-index: 1;
-  margin-bottom: 200px;
+    height: 80px;
+    background: #5999c4;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    z-index: 1;
+    margin-bottom: 200px;
 }
 
 nav ul {
-  display: flex;
-  align-items: center;
-  height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 nav ul li {
-  margin: 0 2em;
+    margin: 0 2em;
 }
 
 nav li {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #nav-wrap {
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: center;
-  margin-bottom: 10px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    margin-bottom: 10px;
 }
 
+
 /* navigation bar styles ends */
+
 a {
-  color: white;
+    color: white;
 }
 
 #home {
-  flex: auto;
+    flex: auto;
 }
 
 main {
-  /* margin-top: 95px; */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
-  flex: 1;
+    flex: 1;
 }
 
+
 /* footer styles beigns */
+
 .footer {
-  display: block;
+    display: block;
 }
 
 .footer-container {
-  display: flex;
-  flex-direction: row;
-  opacity: 0.7;
-  background: linear-gradient(45deg, #072f5f, #072f10);
-  justify-content: space-evenly;
-  align-content: space-around;
+    display: flex;
+    flex-direction: row;
+    opacity: 0.7;
+    background: linear-gradient(45deg, #072f5f, #072f10);
+    justify-content: space-evenly;
+    align-content: space-around;
 }
 
 .footer-link-containters {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-link-container a {
-  color: white;
-  display: block;
-  margin: 10px;
+    color: white;
+    display: block;
+    margin: 10px;
 }
+
+
 /* footer styles ends */
