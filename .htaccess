@@ -5,11 +5,9 @@
 # instructions without number sign in front are directives
 # learn more about .htaccess: https://www.askapache.com/htaccess/
 
-
 # ----------------------------------------
 # Ensure server uses correct character encoding
 AddDefaultCharset UTF-8
-
 
 # ----------------------------------------
 # Server will use British Columbia time zone
@@ -23,7 +21,6 @@ SetEnv TZ Canada/Pacific
 # 	use: Options All -Indexes
 Options All +Indexes
 
-
 # ----------------------------------------
 #	EXERCISE
 #
@@ -33,6 +30,7 @@ Options All +Indexes
 # Note: use a server-root based path here
 # ErrorDocument 404 /students/eioica/errors/index.html
 
+
 # AddType and AddHandler can be instructed to parse .html files as .php
 AddType application/x-httpd-php .html
-AddHandler application/x-httpd-php .html
+AddHandler application/x-httpd-php .htm .html

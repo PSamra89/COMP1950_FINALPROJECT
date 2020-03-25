@@ -10,7 +10,7 @@
                     <a href="#">Lecture</a>
                 </li>
                 <li>
-                    <a href="../pages/about.html">About</a>
+                    <a href="/pages/about.html">About</a>
                 </li>
                 <li>
                     <form>
