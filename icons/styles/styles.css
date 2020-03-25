@@ -74,23 +74,18 @@ main {
 
 /* footer styles beigns */
 
-
-/*.footer {
-    width: 100%;
-    position: fixed;
-    height: 80px;
+.footer {
     display: flex;
-    flex-direction: row;
+    height: 80px;
+    width: 100%;
+    font-size: 2em;
+    justify-content: space-around;
     background: #5999c4;
-    justify-content: space-evenly;
-    align-content: space-around;
-    align-items: center;
+    position: absolute;
     bottom: 0px;
-}*/
+}
 
 .footer-container {
-    width: 100%;
-    position: fixed;
     height: 80px;
     display: flex;
     flex-direction: row;

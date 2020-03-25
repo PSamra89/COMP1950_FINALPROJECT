@@ -1,0 +1,57 @@
+@import url(/styles/reset.css);
+body {
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  background: white;
+  color: black;
+  font-size: 16px;
+  line-height: 1;
+  padding: 2em;
+}
+
+.profiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: block;
+  margin: 10px;
+  border-width: 0px;
+}
+
+.card-title {
+  margin-top: 15%;
+  font-weight: bold;
+}
+.card img {
+  border-radius: 50%;
+}
+.card-body:before {
+  width: 100px;
+  height: 100px;
+  border-radius: 0px 0px 50px 50px;
+
+  background-color: #0000ff;
+  border-radius: 20px;
+  padding: 10px;
+  min-height: 250px;
+}
+
+.card-body {
+  background-color: rgb(238, 228, 228, 0.4);
+  border-radius: 20px;
+  padding: 10px;
+  min-height: 250px;
+}
+
+.card-body img {
+  height: 2.5em;
+  width: auto;
+}
+.social-media-links {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  justify-items: center;
+}
