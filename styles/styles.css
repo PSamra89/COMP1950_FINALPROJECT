@@ -119,6 +119,30 @@ main {
   .about {
     display: none;
   }
+  .entypo-menu {
+    display: block;
+  }
+  .entypo-home {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .mobile-nav {
+    display: none;
+  }
+  .entypo-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .lec {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
   .entypo-home {
     display: none;
   }
