@@ -8,7 +8,9 @@
   flex-flow: wrap row;
   justify-content: center;
   margin-bottom: 10px;
+}
 
+nav {
   height: 80px;
   background: #5999c4;
   width: 100%;
@@ -30,36 +32,7 @@ nav ul li {
 
 nav li {
   list-style-type: none;
-  font-size: 25px;
 }
-
-.entypo-home {
-  color: white;
-}
-.entypo-menu {
-  color: white;
-  font-size: 20px;
-}
-.mobile-nav > ul li {
-  list-style-type: none;
-}
-
-.mobile-nav {
-  display: none;
-}
-
-#nav-wrap {
-  display: flex;
-  flex-flow: wrap row;
-  justify-content: center;
-  margin-bottom: 10px;
-}
-
-.entypo-menu {
-  display: none;
-}
-
-/* navigation bar styles ends */
 
 body ::-webkit-scrollbar {
   display: none;
@@ -138,9 +111,7 @@ main {
   display: none;
   margin-top: 100px;
 }
-/* footer styles ends */
 
-/* for responsive deisgn */
 @media only screen and (max-width: 980px) {
   .lec {
     display: none;
@@ -153,5 +124,14 @@ main {
   }
   .entypo-menu {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .mobile-nav {
+    display: none;
+  }
+  .entypo-menu {
+    display: none;
   }
 }
