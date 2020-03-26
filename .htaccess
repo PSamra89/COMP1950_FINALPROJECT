@@ -28,7 +28,7 @@ Options All +Indexes
 # Direct errors to a specified path			
 # ErrorDocument <errorNumber> <path>
 # Note: use a server-root based path here
-# ErrorDocument 404 /students/eioica/errors/index.html
+ErrorDocument 404 ../errors/index.html
 
 
 # AddType and AddHandler can be instructed to parse .html files as .php
