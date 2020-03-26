@@ -1,0 +1,43 @@
+/*print styles*/
+@media print{
+	/* display fully qualified hyperlink URLs */
+	a[href^="http"]:after{
+		content:" URL: (" attr(href) ") ";		
+	}
+	/* hide navigation */
+	nav{
+		display:none;
+	}
+	/* never end a page with a heading */
+	h1, h2, h3, h4, h5, h6{
+		page-break-after:avoid;
+	}
+	/* start new page with each new section(but dont page break with the first section)*/
+	section ~ section{
+		page-break-before:always;
+    }
+    
+    html, body {
+        border: 1px solid white;
+        height: 99%;
+        page-break-after: avoid !important;
+        page-break-before: avoid !important;
+     }
+     .print-display-none,
+     .print-display-none * {
+       display: none !important;
+     }
+     .print-visibility-hide,
+     .print-visibility-hide * {
+       visibility: hidden !important;
+     }
+     .printme,
+     .printme * {
+       visibility: visible !important;
+     }
+     .printme {
+       position: absolute;
+       left: 0;
+       top: 0;
+     }
+}
