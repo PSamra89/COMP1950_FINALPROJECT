@@ -1,79 +1,95 @@
 @import url(https://weloveiconfonts.com/api/?family=entypo);
 [class*="entypo-"]:before {
-    font-family: "entypo";
+  font-family: "entypo";
 }
-
 
 /* navigation bar styles  */
 
 nav {
-    height: 80px;
-    background: #5999c4;
-    width: 100%;
-    position: fixed;
-    opacity: 1;
-    z-index: 1;
-    margin-bottom: 200px;
+  height: 80px;
+  background: #5999c4;
+  width: 100%;
+  position: fixed;
+  opacity: 1;
+  z-index: 1;
+  margin-bottom: 200px;
 }
 
 nav ul {
-    display: flex;
-    align-items: center;
-    height: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 nav ul li {
-    margin: 0 2em;
+  margin: 0 2em;
 }
 
 nav li {
-    list-style-type: none;
+  list-style-type: none;
+  font-size: 25px;
+}
+
+.entypo-home {
+  color: white;
+}
+.entypo-menu {
+  color: white;
+  font-size: 20px;
+}
+.mobile-nav > ul li {
+  list-style-type: none;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 #nav-wrap {
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
-    margin-bottom: 10px;
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
+.entypo-menu {
+  display: none;
+}
 
 /* navigation bar styles ends */
 
 a {
-    color: white;
+  color: white;
 }
 
 #home {
-    flex: auto;
+  flex: auto;
 }
 
 main {
-    margin-top: 195px;
-    display: flex;
-    flex-direction: column;
-    min-height: 80vh;
+  margin-top: 195px;
+  display: flex;
+  flex-direction: column;
+  min-height: 80vh;
 }
 
 .container {
-    flex: 1;
+  flex: 1;
 }
 
 .section_two {
-    margin-top: 10%;
-    background-color: #33c3f0;
-    padding: 15em 0 15em;
-    color: white;
+  margin-top: 10%;
+  background-color: #33c3f0;
+  padding: 15em 0 15em;
+  color: white;
 }
 
 .section_three {
-    margin-top: 10%;
-    padding: 0em 0 15em;
+  margin-top: 10%;
+  padding: 0em 0 15em;
 }
 
-
 /* footer styles beigns */
-
 
 /*.footer {
     width: 100%;
@@ -89,27 +105,46 @@ main {
 }*/
 
 .footer-container {
-    width: 100%;
-    position: fixed;
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    background: #5999c4;
-    justify-content: space-evenly;
-    align-content: space-around;
-    align-items: center;
-    bottom: 0px;
+  width: 100%;
+  position: fixed;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background: #5999c4;
+  justify-content: space-evenly;
+  align-content: space-around;
+  align-items: center;
+  bottom: 0px;
 }
 
 .footer-link-containters {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-link-container a {
-    display: block;
-    margin: 10px;
+  display: block;
+  margin: 10px;
 }
 
-
+.mobile-nav {
+  display: none;
+  margin-top: 100px;
+}
 /* footer styles ends */
+
+/* for responsive deisgn */
+@media only screen and (max-width: 980px) {
+  .lec {
+    display: none;
+  }
+  .about {
+    display: none;
+  }
+  .entypo-home {
+    display: none;
+  }
+  .entypo-menu {
+    display: block;
+  }
+}

@@ -20,11 +20,11 @@
               </button>
                     </form>
                 </li>
-                <li>
+                <!-- <li>
                     <a id="shopping-cart" href="#">
                         <span class="entypo-basket" data-text="basket"></span>
                     </a>
-                </li>
+                </li> -->
             </ul>
         </nav>
 </div>
