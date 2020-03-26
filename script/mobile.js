@@ -1,13 +1,5 @@
 $(document).ready(function() {
-    // window.onresize = displayWindowSize;
 
-    // function displayWindowSize() {
-    //   myWidth = window.innerWidth;
-    //   myHeight = window.innerHeight;
-    // your size calculation code here
-
-    // if (myWidth < 980) {
-    //   {
     var btn = document.getElementsByClassName("entypo-menu")[0];
     btn.addEventListener("click", function() {
         var temp = $(".mobile-nav").css("display");
