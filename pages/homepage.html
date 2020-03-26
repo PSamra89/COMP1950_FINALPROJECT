@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8" />
@@ -13,17 +12,20 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Print Styles
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="../styles/printer.css" rel="stylesheet" media="print"/>
-
     <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+    <link
+      href="//fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- jQuery
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <head>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+
     <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="../styles/normalize.css" />
@@ -32,82 +34,119 @@
 
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-   
+    <link rel="icon" type="image/png" href="/images/BCIT_logo.png" />
     <link rel="icon" type="image/png" href="../images/BCIT_logo.png" />
 </head>
 
-<!-- Javascript 
+    <!-- Javascript 
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-      
+  </head>
 
-<body>
-<?php
+  <body>
+    <!-- <?php
   include ("../php/navigation.php");	
-?>
-
-
-        <div class="mobile-nav">
-            <ul>
-                <li><a href="../pages/lecture.html">test1</a>Lectures</li>
-                <li><a href="../pages/about.html">test2</a>About</li>
-                <form>
-                    <input type="search" placeholder="Search.." name="search" />
-                    <button type="submit">
+?> -->
+    <div id="nav-wrap">
+      <nav>
+        <ul class="nav_links">
+          <li id="home" class="hom-mob">
+            <a href="#">
+              <span class="entypo-home" data-text="home"></span>
+              <span class="entypo-menu" data-text="home"></span>
+            </a>
+          </li>
+          <li class="lec">
+            <a href="#">Lecture</a>
+          </li>
+          <li class="lec">
+            <a href="/pages/about.html">About</a>
+          </li>
+          <li class="lec">
+            <form>
+              <input type="search" placeholder="Search.." name="search" />
+              <button type="submit">
+                <span class="entypo-search" data-text="search"></span>
+              </button>
+            </form>
+          </li>
+          <!-- <li>
+            <a id="shopping-cart" href="#">
+              <span class="entypo-basket" data-text="basket"></span>
+            </a>
+          </li> -->
+        </ul>
+      </nav>
+      <div class="mobile-nav">
+        <ul>
+          <li><a href="#">test1</a>Lectures</li>
+          <li><a href="#">test2</a>About</li>
+          <form>
+            <input type="search" placeholder="Search.." name="search" />
+            <button type="submit">
               <span class="entypo-search" data-text="search"></span>
             </button>
-                </form>
+          </form>
+        </ul>
+      </div>
+    </div>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="one-half column">
+            <h4>COMP 1950</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+              purus massa, congue ac tellus sed, tristique dapibus lorem. Fusce
+              lectus felis, bibendum at suscipit id, aliquet sit amet enim.
+              Curabitur scelerisque est at ipsum fermentum consectetur. Aenean
+              et dolor fermentum felis feugiat mollis. Pellentesque vel nibh
+              feugiat, volutpat nunc ac, interdum diam. Sed varius lorem a
+              sollicitudin mattis. Donec arcu elit, imperdiet ac efficitur quis,
+              feugiat eu erat. Praesent eget aliquet est, quis rhoncus magna.
+            </p>
+            <p>
+              Etiam ut tincidunt libero. Etiam efficitur nisi quis lacus
+              lobortis, vitae placerat diam varius. Nunc sed consequat nulla,
+              sit amet consequat nisi. Nunc vitae ultricies eros. Fusce eu
+              ullamcorper nisi. Nullam porta, urna nec tincidunt vehicula, augue
+              dui placerat massa, eu maximus magna libero vel magna. Proin ut
+              urna urna. Maecenas ullamcorper et tortor in vehicula.
+            </p>
+          </div>
+          <div class="one-half column">
+            <h4>Course Outcomes</h4>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </li>
+              <li>
+                Praesent eget nisi ut ex egestas venenatis.
+              </li>
+              <li>
+                Proin rhoncus lorem quis massa posuere imperdiet.
+              </li>
+              <li>
+                Aenean fringilla neque ac vestibulum tempor.
+              </li>
+              <li>
+                Nam egestas nisi quis varius sollicitudin.
+              </li>
+              <li>
+                Etiam pretium eros id quam placerat, sed tempus leo malesuada.
+              </li>
             </ul>
+          </div>
         </div>
-
-
-        <main>
-            <div class="container">
-                <div class="row">
-                    <div class="one-half column">
-                        <h4>COMP 1950</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis purus massa, congue ac tellus sed, tristique dapibus lorem. Fusce lectus felis, bibendum at suscipit id, aliquet sit amet enim. Curabitur scelerisque est at ipsum fermentum consectetur. Aenean
-                            et dolor fermentum felis feugiat mollis. Pellentesque vel nibh feugiat, volutpat nunc ac, interdum diam. Sed varius lorem a sollicitudin mattis. Donec arcu elit, imperdiet ac efficitur quis, feugiat eu erat. Praesent eget aliquet
-                            est, quis rhoncus magna.
-                        </p>
-                        <p>
-                            Etiam ut tincidunt libero. Etiam efficitur nisi quis lacus lobortis, vitae placerat diam varius. Nunc sed consequat nulla, sit amet consequat nisi. Nunc vitae ultricies eros. Fusce eu ullamcorper nisi. Nullam porta, urna nec tincidunt vehicula, augue
-                            dui placerat massa, eu maximus magna libero vel magna. Proin ut urna urna. Maecenas ullamcorper et tortor in vehicula.
-                        </p>
-                    </div>
-                    <div class="one-half column">
-                        <h4>Course Outcomes</h4>
-                        <ul>
-                            <li>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            </li>
-                            <li>
-                                Praesent eget nisi ut ex egestas venenatis.
-                            </li>
-                            <li>
-                                Proin rhoncus lorem quis massa posuere imperdiet.
-                            </li>
-                            <li>
-                                Aenean fringilla neque ac vestibulum tempor.
-                            </li>
-                            <li>
-                                Nam egestas nisi quis varius sollicitudin.
-                            </li>
-                            <li>
-                                Etiam pretium eros id quam placerat, sed tempus leo malesuada.
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <?php
+      </div>
+    </main>
+    <?php
     include ("../php/footer.php");	
 ?>
-            <!-- End Document
+    <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
+ 
     <script src="../script/mobile.js"></script>
   </body>
 </html>
