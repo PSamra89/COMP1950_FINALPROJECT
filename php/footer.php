@@ -1,7 +1,7 @@
 <footer>
         <div class="footer-container">
             <div class="footer-link-container">
-                <a href="www.bcit.ca">
+                <a href="https://www.bcit.ca">
                     <span class="entypo-graduation-cap" data-text="graduation-cap"></span> BCIT
                 </a>
             </div>
